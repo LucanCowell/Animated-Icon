@@ -14,34 +14,42 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-size: cover;
     background-position: center;
-    animation: imageSlider 6s steps(1) infinite;
+    animation: imageSlider 4s steps(1) infinite;
 }
 
 @keyframes imageSlider {
     0% {
         background-image: url('/img/LucanWebDesigns.logo.normal.png');
     }
-    15% {
+    10% {
         background-image: url('/img/LucanWebDesigns.logo.eyebrow-left.png');
     }
 
-    30% {
+    20% {
         background-image: url('/img/LucanWebDesigns.logo.normal.png');
     }
 
-    45% {
+    30% {
         background-image: url('/img/LucanWebDesigns.logo.down.png');
+    }
+
+    40% {
+        background-image: url('/img/LucanWebDesigns.logo.normal.png');
+    }
+
+    50% {
+        background-image: url('/img/LucanWebDesigns.logo.eyebrows-raised.png');
     }
 
     60% {
         background-image: url('/img/LucanWebDesigns.logo.normal.png');
     }
 
-    75% {
+    70% {
         background-image: url('/img/LucanWebDesigns.logo.eyebrow-right.png');
     }
 
-    90% {
+    80% {
         background-image: url('/img/LucanWebDesigns.logo.normal.png');
     }
 
