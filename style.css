@@ -14,7 +14,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-size: cover;
     background-position: center;
-    animation: imageSlider 4s steps(1) infinite;
+    animation: imageSlider 20s steps(1) infinite;
 }
 
 @keyframes imageSlider {
@@ -49,7 +49,7 @@ body {
         background-image: url('/img/LucanWebDesigns.logo.eyebrow-right.png');
     }
 
-    80% {
+    85% {
         background-image: url('/img/LucanWebDesigns.logo.normal.png');
     }
 
