@@ -10,5 +10,29 @@
     <div class="container">
         <div class="imgContainer"></div>
     </div>
+
+    <script>
+            const images = [
+                '/img/LucanWebDesigns.logo.normal.png',
+                '/img/LucanWebDesigns.logo.eyebrow-left.png',
+                '/img/LucanWebDesigns.logo.down.png',
+                '/img/LucanWebDesigns.logo.eyebrows-raised.png',
+                '/img/LucanWebDesigns.logo.eyebrow-right.png',
+                '/img/LucanWebDesigns.logo.up.png'
+            ];
+
+            const imgContainer = document.querySelector('.imgContainer');
+
+            function changeToRandomImage() {
+                const randomIndex = Math.floor(Math.random() * images.length);
+
+                imgContainer.style.backgroundImage = `url('${images[randomIndex]}')`;
+            }
+
+            changeToRandomImage();
+
+            setInterval(changeToRandomImage, 3000);
+
+    </script>
 </body>
 </html>
