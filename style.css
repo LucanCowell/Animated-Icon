@@ -1,4 +1,4 @@
-.container {
+.animatedcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-.imgContainer {
+.animatedimgContainer {
     width: 500px;
     height: 350px;
     border-radius: 10px;
